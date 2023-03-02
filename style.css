@@ -1,0 +1,57 @@
+.gora{
+    
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+a{
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+.ramki{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 20px
+}
+
+.ramka1{
+    
+    width: 50vh;
+    max-width: 50vh;
+    border: 5px solid black;
+    background-color: aliceblue;
+    display: grid;
+    flex-direction: column;
+    z-index: -1;
+}
+body{
+    background-image: url("tlo.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    
+}
+p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: fantasy;
+    font-style: italic;
+    color: cyan;
+    background-color: gray;
+    
+}
+img{
+    max-height: 30vh;
+    width: 100%;
+}

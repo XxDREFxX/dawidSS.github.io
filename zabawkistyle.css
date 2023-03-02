@@ -1,0 +1,59 @@
+body{
+    background-image: url(koteczki.jpg);
+    background-attachment: fixed;
+}
+
+.gora{
+    
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+a{
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+
+}
+.slot{
+    width: 90%;
+    border: 3px black solid;
+    border-radius: 6px;
+    height: 6cm;
+    background-color: rgba(255,255,255, 0.4);
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 6cm;
+}
+t{
+    align-items: center;
+    background-color: dodgerblue;
+    font-size: 30px;
+    width: 6cm;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 2px black solid;
+    border-radius: 5vh;
+    background-color: lightseagreen;
+    height: 6cm;
+    width: 6cm;
+    font-style: oblique;
+    font-size: 30px;
+}
+button:hover{
+    background-color: lightskyblue;
+}
